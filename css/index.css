@@ -1,0 +1,226 @@
+:root {
+    --mainColor: #525FE1;
+    --secondColor: #16213E;
+    --border-Color: #4942E4;
+    --styelColor: #E94560;
+    --whitheColor: #fff;
+    --mainFont: 'Montserrat', sans-serif;
+}
+/* ######################## NavBar Style ########################### */
+.navbar {
+    backdrop-filter: blur(2px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.navbar-brand {
+    font-size: 10px;
+    text-transform: capitalize;
+    color: var(--whitheColor);
+}
+.navbar-brand:hover {
+    color: white;
+}
+.navbar-nav .nav-link.active {
+    border: 2px solid #11009E;
+    padding: 0 20px;
+    text-align: center;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+.nav-link {
+    color: rgb(255, 255, 255);
+    padding: 0 30px;
+    border: 2px solid transparent;
+    transition: all 0.1s ease-in-out;
+    text-transform: capitalize;
+    text-align: center;
+}
+.nav-link:hover {
+    border: 2px solid #11009E;
+    color: #ffffff;
+    padding: 0 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+/* ################## HEADER Style ############################ */
+#header {
+    background-image: url(../imge/5466409.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-color: var(--border-Color);
+}
+.searchInput {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+.searchInput input {
+    width: 60%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 10px 30px;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-radius: 20px;
+    border: 2px solid #525FE1;
+    background-image: url(../imge/search-interface-symbol_54481.png);
+    background-position: 10px 14px;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+}
+.searchInput input:focus {
+    outline: none;
+}
+.searchInput button {
+    background-color: #1E7CCC;
+    backdrop-filter: blur(5px);
+    position: relative;
+    right: 95px;
+    padding: 10px 30px;
+    font-size: 16px;
+    text-transform: capitalize;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 20px;
+    transition: all 0.4s ease-in;
+    color: var(--whitheColor);
+}
+/* ############################################ */
+.card {
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid var(--mainColor);
+    backdrop-filter: blur(15px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.card .days {
+    background-color: var(--border-Color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 5px;
+}
+.card .days h5,
+h6 {
+    font-size: 15px;
+    color: #F9F5EB;
+}
+.card h2 {
+    font-size: 50px;
+    padding: 10px;
+    color: #F9F5EB;
+    padding: 25px 15px;
+}
+.card h2 i {
+    color: #EDEEA5;
+}
+.card .degree {
+    padding-left: 20px;
+    position: relative;
+}
+.card .degree img {
+    width: 12%;
+    position: absolute;
+    right: 50px;
+    top: 0;
+}
+.card .degree span {
+    font-size: 100px;
+    color: #F9FBE7;
+}
+.card p {
+    font-size: 25px;
+    padding-left: 30px;
+    color: var(--whitheColor);
+}
+.card .windSpeed {
+    padding: 15px;
+}
+.card .windSpeed span {
+    padding: 0 15px;
+    font-size: 16px;
+    color: var(--whitheColor);
+}
+.card .windSpeed span img {
+    width: 25px;
+}
+/* ########################### */
+
+.nextday {
+    backdrop-filter: blur(20px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid var(--mainColor);
+}
+.nextday .dey-header {
+    padding: 10px 0;
+    background-color: var(--border-Color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.nextday .dey-header h2 {
+    font-size: 20px;
+    color: #F9FBE7;
+}
+.nextday .day-content {
+    padding: 30px;
+}
+.nextday .day-content h3 {
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 0;
+    color: #F9FBE7;
+}
+.nextday .day-content small {
+    font-size: 20px;
+    color: #F9FBE7;
+}
+.nextday .day-content p {
+    font-size: 20px;
+    padding: 10px;
+    color: var(--whitheColor);
+}
+/* ###################### */
+.contct {
+    width: 80%;
+    position: relative;
+}
+.contct input[type="text"] {
+    border: 2px solid gray;
+    border-radius: 20px;
+    width: 80%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-transform: capitalize;
+    padding: 10px 15px;
+}
+.contct input[type="text"]:focus {
+    outline: none;
+}
+.contct input[type="button"] {
+    background-color: #1E7CCC;
+    color: var(--whitheColor);
+    border-radius: 20px;
+    padding: 10px 15px;
+    position: absolute;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    backdrop-filter: blur(5px);
+    right: 20%;
+}
+.icons {
+    padding: 0 20px;
+}
+.icons .faec {
+    width: 30px;
+    height: 30px;
+    border: 2px solid var(--mainColor);
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: all 0.4s ease-in-out;
+}
+.icons .faec:hover i {
+    color: #ffffff;
+}
+.icons .faec i {
+    font-size: 15px;
+    transition: all 0.2s ease-in-out;
+}
